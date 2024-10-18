@@ -1,6 +1,3 @@
-[submodule "EXTERNALS"]
-	path = EXTERNALS
-	url = https://github.com/Switch-modder/EXTERNALS/tree/victorware
 [submodule "ota/wire-os"]
 	path = ota/wire-os
 	url = https://github.com/kercre123/wire-os
