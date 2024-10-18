@@ -18,7 +18,7 @@ Currently the wake-word is still "hey vector" but this will be changed to "hey c
 
 ```
 cd ~
-git clone --recurse-submodules https://github.com/kercre123/victor -b SWMODDER/Victorware-2.0
+git clone --recurse-submodules https://github.com/Switch-modder/Victorware-2.0 -b Victorware-2.0
 cd victor
 git lfs install
 git lfs pull
