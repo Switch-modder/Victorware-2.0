@@ -1,14 +1,14 @@
 # Victorware 2.0
 
-Welcome to my `Victorware 2.0`. This is the home of the Anki Vector robot's source code. Original README: [README-orig.md](/README-orig.md)
+Welcome to my `Victorware 2.0`. This is the home of the Anki Vector robot's modified cozmoware like source code. Original Anki README: [README-orig.md](/README-orig.md)
 
 ## Branch Info
 
-This branch is based off of the 'snowboy' branch and is able to have its wake word changed to something else.
+This branch is based off of the 'snowboy' branch and is able to have its wake word changed to something else such as 'hey jarvis'.
 
-The main purpose of this branch is to attempt to make a modern version of the old cozmoware but with a newer underlying os.
+The main purpose of this branch is to attempt to make a modern version of the old cozmoware but with a newer underlying os. This means that we will hopefully have working voice commands in this firmware.
 
-Currently the wake-word is still "hey vector" but this will be changed to "hey cozmo".
+Currently the wake-word is still "hey vector" but this will be changed to "hey cozmo" at a later date.
 
 ## Building (Linux)
 
