@@ -1,12 +1,14 @@
-# victor
+# Victorware 2.0
 
-Welcome to `victor`. This is the home of the Anki Vector robot's source code. Original README: [README-orig.md](/README-orig.md)
+Welcome to my `Victorware 2.0`. This is the home of the Anki Vector robot's source code. Original README: [README-orig.md](/README-orig.md)
 
 ## Branch Info
 
-This branch uses the Snowboy wake-word engine. It's reasonably fast and accurate.
+This branch is based off of the 'snowboy' branch and is able to have its wake word changed to something else.
 
-The wake-word is still "hey vector".
+The main purpose of this branch is to attempt to make a modern version of the old cozmoware but with a newer underlying os.
+
+Currently the wake-word is still "hey vector" but this will be changed to "hey cozmo".
 
 ## Building (Linux)
 
@@ -16,7 +18,7 @@ The wake-word is still "hey vector".
 
 ```
 cd ~
-git clone --recurse-submodules https://github.com/kercre123/victor -b snowboy
+git clone --recurse-submodules https://github.com/kercre123/victor -b SWMODDER/Victorware-2.0
 cd victor
 git lfs install
 git lfs pull
@@ -98,3 +100,4 @@ echo 192.168.1.150 > robot_ip.txt
 # macOS
 ./wire/deploy.sh
 ```
+Hopefully one day you'll see the beautiful cozmo eyes instead of  Vector's.
