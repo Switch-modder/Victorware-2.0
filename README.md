@@ -36,13 +36,13 @@ sudo chmod 660 /var/run/docker.sock
 
 3. Run the build script:
 ```
-cd ~/victor
+cd ~/Victorware-2.0
 ./wire/build-d.sh
 ```
 
 3. It should just work! The output will be in `./_build/vicos/Release/`
 
-## Building (Intel macOS)
+## Building (Intel macOS) -UNTESTED
 
  - Prereqs: Make sure you have [brew](https://brew.sh/) installed.
    -  Then: `brew install pyenv git-lfs ccache`
@@ -51,8 +51,8 @@ cd ~/victor
 
 ```
 cd ~
-git clone --recurse-submodules https://github.com/kercre123/victor -b snowboy
-cd victor
+git clone --recurse-submodules https://github.com/kercre123/Victorware-2.0 -b snowboy
+cd Victorware-2.0
 git lfs install
 git lfs pull
 ```
@@ -75,13 +75,13 @@ pyenv shell 2.7.18
 
 3. Run the build script:
 ```
-cd ~/victor
+cd ~/Victorware-2.0
 ./wire/build.sh
 ```
 
 3. It should just work! The output will be in `./_build/vicos/Release/`
 
-## Deploying
+## Deploying (UNTESTED)
 
 1. Echo your robot's IP address to robot_ip.txt (in the root of the victor repo):
 
